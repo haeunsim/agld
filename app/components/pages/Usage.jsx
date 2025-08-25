@@ -185,7 +185,7 @@ export default function Usage() {
         >
           언제 어디서든 다양한 독서환경 지원
         </motion.h2>
-        <div className="flex justify-between items-center">
+        <div className="flex flex-col justify-between items-center">
           <motion.div
             className="image-wrap"
             initial={{ opacity: 0, x: -50 }}
@@ -201,7 +201,7 @@ export default function Usage() {
             >
               <Image
                 src="/images/usage5.png"
-                width={212}
+                width={300}
                 height={400}
                 alt="school"
               />
@@ -214,7 +214,7 @@ export default function Usage() {
             >
               <Image
                 src="/images/usage6.png"
-                width={212}
+                width={300}
                 height={400}
                 alt="school"
               />
@@ -227,7 +227,7 @@ export default function Usage() {
             >
               <Image
                 src="/images/usage7.png"
-                width={212}
+                width={300}
                 height={400}
                 alt="school"
               />
