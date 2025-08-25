@@ -114,11 +114,19 @@ section {
   .btn {
     padding: 16px 40px;
     border-radius: 40px;
+    /*
     background: linear-gradient(135deg, #6ec1ff, #4a90e2, #1a75ff);
+    */
+    background: #2d8fff;
     color: #fff;
     font-size: 18px;
-    font-weight: 600;
+    font-weight: 500;
     cursor: pointer;
+    transition: all 0.5s ease;
+    &:hover {
+      transition: all 0.5s ease;
+      scale: 1.01;
+    }
   }
 }
 
@@ -902,7 +910,8 @@ section {
 /* Reviews */
 .reviews-section {
   position: relative;
-  background: url("/images/bg2.png") no-repeat center center;
+  background: #fafafa;
+  /*background: url("/images/bg2.png") no-repeat center center;*/
 
   .review-box {
     width: 100%;

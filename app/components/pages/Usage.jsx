@@ -8,7 +8,7 @@ export default function Usage() {
     <section className="usage-section">
       <div className="container">
         <motion.h2
-          className="title2 text-center mb-[40px] font-kcc"
+          className="title2 text-center mb-[40px]"
           initial={{ opacity: 0, y: 50 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: false }}
@@ -87,7 +87,7 @@ export default function Usage() {
         </div>
 
         <div className="!pt-[150px]">
-          <h2 className="title-banner font-kcc">수업 연계 흐름</h2>
+          <h2 className="title-banner">수업 연계 흐름</h2>
           <div className="environment2">
             <motion.div
               className="item"
@@ -177,7 +177,7 @@ export default function Usage() {
 
       <div className="environment">
         <motion.h2
-          className="title-banner font-kcc"
+          className="title-banner"
           initial={{ opacity: 0, y: 50 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: false }}
