@@ -8,12 +8,13 @@ const faqs = [
     question: "1. 도입 후 실제 사용률은 어떤가요?",
     answer: "기존 영어도서관 대비 평균 3배 이상 높은 사용률을 보이고 있습니다.",
     answer2:
-      "게임화 요소와 AI 상호작용으로 아이들이 자발적으로 참여하게 됩니다",
+      "게임화 요소와 AI 상호작용으로 아이들이 자발적으로 참여하게 됩니다.",
   },
   {
     question: "2. 연간 이용권 외에 다른 옵션이 있나요?",
-    answer:
-      "기본적으로 연간 이용권을 제공하며, 학교 상황에 따라 분할 결제나 체험 기간 연장 등 유연한 옵션을 제공합니다",
+    answer: "기본적으로 연간 이용권을 제공하며,",
+    answer2:
+      "학교 상황에 따라 분할 결제나 체험 기간 연장 등 유연한 옵션을 제공합니다.",
   },
   {
     question: "3. 교사가 관리해야 할 것들이 많나요?",
@@ -29,8 +30,8 @@ const faqs = [
   },
   {
     question: "5. 예산 확보는 어떻게 하나요?",
-    answer:
-      "학교 운영 예산 중 도서관 운영비의 독후 활동비에 해당하므로 별도 예산 확보 없이 도입 가능합니다.",
+    answer: "학교 운영 예산 중 도서관 운영비의 독후 활동비에 해당하므로",
+    answer2: "별도 예산 확보 없이 도입 가능합니다.",
   },
 ];
 
@@ -42,10 +43,10 @@ export default function Faq() {
   };
 
   return (
-    <section className="faq-section">
+    <section id="faq" className="faq-section">
       <div className="container">
         <div className="flex">
-          <div className="w-1/3">
+          <div className="md:w-1/3">
             <motion.h2
               className="title2"
               initial={{ opacity: 0, y: 50 }}
@@ -56,7 +57,7 @@ export default function Faq() {
               자주 묻는 질문
             </motion.h2>
           </div>
-          <div className="faq-accordion w-2/3 mx-auto">
+          <div className="faq-accordion md:w-2/3 mx-auto">
             {faqs.map((faq, index) => (
               <motion.div
                 key={index}

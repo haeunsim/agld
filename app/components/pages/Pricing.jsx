@@ -36,7 +36,7 @@ export default function Pricing() {
           >
             <h3 className="font-bold text-lg">200명 이하</h3>
             <p className="text-2xl font-semibold">
-              <span className="font-yonepick">200</span>만원
+              <span>200</span>만원
             </p>
           </motion.div>
           <motion.div
@@ -48,7 +48,7 @@ export default function Pricing() {
           >
             <h3 className="font-bold text-lg">300명 이하</h3>
             <p className="text-2xl font-semibold">
-              <span className="font-yonepick">300</span>만원
+              <span>300</span>만원
             </p>
           </motion.div>
           <motion.div
@@ -60,7 +60,7 @@ export default function Pricing() {
           >
             <h3 className="font-bold text-lg">400명 이하</h3>
             <p className="text-2xl font-semibold">
-              <span className="font-yonepick">400</span>만원
+              <span>400</span>만원
             </p>
           </motion.div>
           <motion.div
@@ -72,7 +72,7 @@ export default function Pricing() {
           >
             <h3 className="font-bold text-lg">500명 이상</h3>
             <p className="text-2xl font-semibold">
-              <span className="font-yonepick">500</span>만원
+              <span>500</span>만원
             </p>
           </motion.div>
         </div>

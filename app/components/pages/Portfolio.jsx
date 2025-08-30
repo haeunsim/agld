@@ -93,7 +93,7 @@ export default function Portfolio() {
   ];
 
   return (
-    <section className="portfolio-section">
+    <section id="portfolio" className="portfolio-section">
       <div className="container">
         <motion.h2
           className="title2 text-center"
@@ -147,14 +147,7 @@ export default function Portfolio() {
               viewport={{ once: false }}
               transition={{ duration: 0.8, ease: "easeOut" }}
             >
-              <motion.h5
-                initial={{ opacity: 0, y: 50 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: false }}
-                transition={{ duration: 0.8, ease: "easeOut" }}
-              >
-                레벨별 주요 시리즈
-              </motion.h5>
+              <h5>레벨별 주요 시리즈</h5>
               {tabs.map((tab) => (
                 <button
                   key={tab.id}

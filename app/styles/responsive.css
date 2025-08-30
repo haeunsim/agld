@@ -271,12 +271,12 @@
   }
 
   .engage-item::before {
-    left: 0px !important;
+    left: -15px !important; /* 여백을 두고 가운데 정렬되도록 조정 */
     top: 5px;
   }
 
   .engage-item::after {
-    left: 4px !important;
+    left: -11px !important; /* dot와 맞춰서 조정 */
     top: 5px;
   }
 
@@ -758,6 +758,7 @@
   }
 
   .engage-item {
+    width: 60%;
     padding-bottom: 50px;
     padding-left: 25px;
   }
@@ -772,13 +773,13 @@
   }
 
   .engage-item::before {
-    left: -18px;
+    left: -12px; /* 작은 화면에서도 적절한 여백 유지 */
     width: 8px;
     height: 8px;
   }
 
   .engage-item::after {
-    left: -15px;
+    left: -9px; /* dot와 맞춰서 조정 */
   }
 
   /* About 섹션 작은 모바일 */

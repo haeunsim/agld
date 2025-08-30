@@ -1,0 +1,2058 @@
+/* 태블릿 - 1200px 이하 */
+@media (max-width: 1200px) {
+  /* 공통 컨테이너 */
+  .container {
+    width: 90%;
+    max-width: 1000px;
+    padding: 0 20px;
+  }
+
+  .navbar {
+    .inner {
+      width: 90%;
+      max-width: 1200px;
+      padding: 0 30px;
+
+      .nav-list {
+        gap: 8px;
+
+        li {
+          width: 160px;
+
+          a {
+            font-size: 16px;
+          }
+        }
+      }
+
+      .links {
+        gap: 20px;
+
+        a {
+          font-size: 15px;
+        }
+      }
+    }
+  }
+
+  /* 메인 섹션 */
+  .main-section {
+    height: 700px;
+
+    .container {
+      max-width: 1200px;
+      gap: 30px;
+
+      .main-title {
+        font-size: 38px;
+        padding-top: 30px;
+      }
+
+      p {
+        font-size: 18px;
+      }
+
+      .main-image {
+        width: 400px;
+        height: 260px;
+        right: 20px;
+      }
+
+      .main-image2 {
+        width: 280px;
+        height: 180px;
+        right: 200px;
+        top: 160px;
+      }
+    }
+  }
+
+  /* Engage 섹션 */
+  .engage-section {
+    padding: 150px 0 80px;
+
+    .image {
+      width: 520px;
+      height: 260px;
+      top: 350px;
+    }
+  }
+
+  .engage-box {
+    .engage-item {
+      padding-bottom: 100px;
+
+      h6 {
+        font-size: 24px;
+      }
+
+      p {
+        font-size: 18px;
+      }
+    }
+  }
+
+  /* About 섹션 */
+  .about-section {
+    .youtube-wrap {
+      width: 900px;
+      height: 500px;
+    }
+
+    .about-image2 {
+      width: 400px;
+      height: 400px;
+    }
+
+    .about-image4 {
+      width: 400px;
+      height: 400px;
+      bottom: 650px;
+      right: 40px;
+    }
+  }
+
+  .about-wrap {
+    gap: 120px;
+
+    .text {
+      h6 {
+        font-size: 36px;
+      }
+    }
+  }
+
+  .slider-wrap {
+    .slider-track {
+      gap: 80px;
+
+      .slide {
+        width: 350px;
+        height: 300px;
+      }
+
+      .content {
+        padding: 60px 30px 30px;
+
+        h6 {
+          font-size: 22px;
+        }
+
+        p {
+          font-size: 15px;
+        }
+      }
+    }
+  }
+
+  /* Portfolio 섹션 */
+  .portfolio-slider-track {
+    .portfolio-slider-item {
+      width: 110px;
+      height: 150px;
+    }
+  }
+
+  .level-tabs {
+    margin: 60px 0;
+
+    .tab-wrap {
+      gap: 60px;
+    }
+
+    .tab-buttons {
+      .tab-button {
+        padding: 10px 18px;
+        font-size: 16px;
+
+        button {
+          font-size: 16px;
+        }
+      }
+    }
+
+    .tab-content {
+      padding: 30px;
+      height: 300px;
+
+      .tab-description {
+        p {
+          font-size: 22px;
+        }
+      }
+
+      .series-list {
+        .tab-image {
+          img {
+            width: 110px;
+            height: 150px;
+          }
+        }
+      }
+    }
+  }
+
+  /* Usage 섹션 */
+  .usage-section {
+    .bg-icon {
+      width: 500px;
+      height: 500px;
+      top: -120px;
+    }
+
+    .bg-icon2 {
+      width: 700px;
+      height: 700px;
+      right: -250px;
+    }
+
+    .usage-wrap {
+      .usage-card {
+        width: 30%;
+        padding: 30px;
+
+        h6 {
+          font-size: 26px;
+        }
+
+        p {
+          font-size: 16px;
+        }
+
+        .icon {
+          width: 160px;
+          height: 160px;
+        }
+      }
+    }
+  }
+
+  .environment2 {
+    width: 900px;
+    gap: 25px 15px;
+
+    .image {
+      width: 420px;
+      height: 240px;
+    }
+
+    .item {
+      p {
+        font-size: 18px;
+      }
+    }
+  }
+
+  .environment {
+    width: 1000px;
+    margin: 120px auto 0;
+
+    .box-wrap {
+      width: 800px;
+      gap: 15px 30px;
+
+      .box {
+        flex: 0 0 calc(50% - 15px);
+        height: 110px;
+        padding: 18px;
+
+        .icon {
+          width: 60px;
+          height: 60px;
+        }
+
+        h3 {
+          font-size: 18px;
+        }
+
+        p {
+          font-size: 15px;
+        }
+      }
+    }
+  }
+
+  /* Pricing 섹션 */
+  .pricing-section {
+    .pricing-wrap {
+      gap: 30px;
+
+      .pricing-card {
+        width: 24%;
+        padding: 35px 15px;
+      }
+    }
+  }
+
+  /* FAQ 섹션 */
+  .faq-accordion {
+    .faq-item {
+      .faq-question {
+        padding: 35px;
+
+        span {
+          font-size: 22px;
+        }
+      }
+
+      .faq-answer {
+        p {
+          font-size: 18px;
+        }
+
+        &.opacity-100 {
+          padding: 50px 35px;
+        }
+      }
+    }
+  }
+
+  /* Reviews 섹션 */
+  .reviews-section {
+    .review-box {
+      .review-card {
+        width: 30%;
+        padding: 70px 30px 50px;
+
+        h6 {
+          font-size: 18px;
+        }
+
+        .profile {
+          width: 70px;
+          height: 70px;
+          top: -35px;
+        }
+      }
+    }
+  }
+
+  /* Banner */
+  .wave-banner {
+    .inner {
+      width: 90%;
+      padding: 8px 16px;
+
+      .icon-wrap {
+        display: none;
+      }
+
+      .logo-wrap {
+        justify-content: start;
+        margin-left: 20px;
+      }
+      .button-wrap {
+        button {
+          width: 160px;
+          padding: 14px;
+
+          a {
+            font-size: 16px;
+          }
+        }
+      }
+    }
+  }
+
+  /* Footer */
+  .footer {
+    .inner {
+      width: 1000px;
+      padding: 0 30px;
+    }
+  }
+}
+
+/* 중간 태블릿 - 992px 이하 */
+@media (max-width: 992px) {
+  /* 네비게이션 */
+  .navbar {
+    height: 70px;
+
+    .inner {
+      height: 70px;
+      padding: 0 20px;
+
+      .nav-list {
+        padding: 30px 0;
+        gap: 5px;
+
+        li {
+          width: 140px;
+
+          a {
+            font-size: 15px;
+          }
+        }
+      }
+
+      .links {
+        gap: 15px;
+
+        a {
+          font-size: 14px;
+        }
+      }
+    }
+  }
+
+  /* 메인 섹션 */
+  .main-section {
+    height: 600px;
+
+    .container {
+      .main-title {
+        font-size: 34px;
+      }
+
+      p {
+        font-size: 16px;
+      }
+
+      .main-image {
+        width: 420px;
+        height: 280px;
+        right: 10px;
+        top: 20px;
+      }
+
+      .main-image2 {
+        width: 350px;
+        height: 240px;
+        right: 150px;
+        top: 140px;
+      }
+    }
+  }
+
+  /* Engage 섹션 */
+  .engage-section {
+    .image {
+      width: 600px;
+      height: 280px;
+      top: 320px;
+    }
+  }
+
+  /* About 섹션 */
+  .about-section {
+    .youtube-wrap {
+      width: 800px;
+      height: 450px;
+    }
+  }
+
+  .about-wrap {
+    gap: 100px;
+
+    .item {
+      gap: 40px;
+
+      &:nth-child(1),
+      &:nth-child(3) {
+        flex-direction: column-reverse;
+      }
+    }
+
+    .text {
+      height: 260px;
+
+      h6 {
+        font-size: 32px;
+      }
+    }
+  }
+
+  /* Usage 섹션 */
+  .usage-section {
+    .usage-wrap {
+      /* Tailwind flex를 고려하여 !important 사용 */
+      display: flex !important;
+      flex-direction: column !important;
+      gap: 30px !important;
+
+      .usage-card {
+        width: 100% !important;
+        max-width: 400px;
+        margin: 0 auto;
+      }
+    }
+  }
+
+  .environment2 {
+    width: 100%;
+    max-width: 800px;
+    padding: 0 20px;
+
+    .image {
+      width: 100%;
+      height: 220px;
+    }
+  }
+
+  .environment {
+    width: 100%;
+    max-width: 900px;
+    padding: 0 20px;
+
+    .box-wrap {
+      width: 100%;
+      gap: 15px;
+
+      .box {
+        flex: 0 0 calc(50% - 8px);
+      }
+    }
+  }
+
+  /* Portfolio 섹션 */
+  .level-tabs {
+    .tab-wrap {
+      gap: 40px;
+
+      .tab-buttons {
+        width: 100% !important;
+      }
+
+      .tab-content {
+        width: 100% !important;
+      }
+    }
+  }
+
+  /* Pricing 섹션 */
+  .pricing-section {
+    .pricing-wrap {
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+
+      .pricing-card {
+        width: 45%;
+        min-width: 250px;
+      }
+    }
+  }
+
+  /* Reviews 섹션 */
+  .reviews-section {
+    .review-box {
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+
+      .review-card {
+        width: 45%;
+        min-width: 280px;
+      }
+    }
+  }
+}
+
+/* 태블릿 - 768px 이하 */
+@media (max-width: 768px) {
+  /* 공통 스타일 */
+  section {
+    padding: 100px 0;
+  }
+
+  .container {
+    width: 95%;
+    padding: 0 15px;
+    overflow: hidden;
+  }
+
+  .title {
+    font-size: 28px;
+    line-height: 1.4;
+    text-align: center;
+  }
+
+  .title2 {
+    font-size: 36px;
+    line-height: 1.3;
+    text-align: center;
+  }
+
+  /* 네비게이션 */
+  .navbar {
+    height: 60px;
+
+    .inner {
+      height: 60px;
+      flex-direction: column;
+      justify-content: center;
+      padding: 5px 15px;
+
+      .logo {
+        order: 1;
+        margin-bottom: 5px;
+      }
+
+      .nav-list {
+        order: 2;
+        padding: 10px 0;
+        gap: 3px;
+
+        li {
+          width: 100px;
+
+          a {
+            font-size: 13px;
+          }
+        }
+      }
+
+      .links {
+        display: none;
+      }
+    }
+  }
+
+  /* 메인 섹션 */
+  .main-section {
+    height: auto;
+    padding: 80px 0;
+
+    .container {
+      position: relative;
+      gap: 25px;
+
+      .main-title {
+        font-size: 28px;
+        padding-top: 20px;
+        padding-bottom: 0;
+        text-align: center;
+      }
+
+      p {
+        font-size: 16px;
+        text-align: center;
+        line-height: 1.6;
+        margin-bottom: 30px;
+      }
+
+      /* Tailwind flex 클래스와 충돌 방지
+      .flex {
+        display: flex !important;
+        flex-direction: column !important;
+        gap: 15px !important;
+        margin-top: 20px !important;
+        align-items: center !important;
+      } */
+
+      .flex {
+        display: flex;
+        flex-direction: row !important;
+        gap: 15px;
+        margin-top: 20px;
+        align-items: center;
+      }
+
+      .btn {
+        padding: 14px 30px;
+        font-size: 16px;
+        width: 100%;
+        max-width: 280px;
+        text-align: center;
+        white-space: nowrap;
+      }
+
+      .main-image,
+      .main-image2 {
+        position: relative !important;
+        width: 100% !important;
+        max-width: 400px !important;
+        height: 250px !important;
+        right: auto !important;
+        top: auto !important;
+        margin: 20px auto 0 !important;
+        rotate: 0deg !important;
+      }
+
+      .main-image2 {
+        margin-top: 10px !important;
+      }
+    }
+  }
+
+  /* Engage 섹션 */
+  .engage-section {
+    padding: 80px 0 60px;
+
+    /* Tailwind flex 클래스와 충돌 방지 */
+    .flex {
+      display: flex !important;
+      flex-direction: column !important;
+      gap: 40px !important;
+    }
+
+    /* Tailwind width 클래스 오버라이드 */
+    .w-2\/3,
+    .w-1\/3 {
+      width: 100% !important;
+    }
+
+    .image {
+      display: none;
+    }
+  }
+
+  .engage-box {
+    padding-left: 0;
+    padding-top: 20px;
+
+    .engage-item {
+      width: 50%;
+      margin: 0 auto;
+      padding-bottom: 60px;
+      padding-left: 30px;
+
+      h6 {
+        font-size: 22px;
+        margin-bottom: 15px;
+      }
+
+      p {
+        font-size: 16px;
+        line-height: 1.6;
+      }
+
+      &::before {
+        left: 0 !important;
+        top: 8px;
+        width: 8px;
+        height: 8px;
+      }
+
+      &::after {
+        left: 3px !important;
+        top: 8px;
+      }
+    }
+  }
+
+  /* About 섹션 */
+  .about-section {
+    .youtube-wrap {
+      width: 100%;
+      height: 400px;
+      margin: 30px auto;
+    }
+
+    .description {
+      font-size: 16px;
+      padding: 8px 30px;
+      margin-top: 20px;
+    }
+
+    .about-image2,
+    .about-image4 {
+      display: none;
+    }
+  }
+
+  .about-wrap {
+    gap: 80px;
+    margin-top: 30px;
+
+    .item {
+      flex-direction: column;
+      gap: 30px;
+    }
+
+    .text {
+      width: 100%;
+      height: auto;
+      text-align: center;
+
+      h6 {
+        font-size: 28px;
+        margin-bottom: 20px;
+      }
+
+      ul li {
+        font-size: 16px;
+        margin-bottom: 8px;
+      }
+    }
+
+    .image {
+      width: 100%;
+      max-width: 600px;
+      height: 337px;
+    }
+  }
+
+  .slider-wrap {
+    gap: 20px;
+    margin-top: 100px;
+
+    .slider-track {
+      gap: 60px;
+
+      .slide {
+        width: 320px;
+        height: 280px;
+      }
+
+      .content {
+        padding: 50px 25px 25px;
+
+        h6 {
+          font-size: 20px;
+        }
+
+        p {
+          font-size: 14px;
+        }
+      }
+    }
+  }
+
+  /* Portfolio 섹션 */
+  .portfolio-section {
+    .text {
+      margin-top: 20px;
+
+      p {
+        font-size: 16px;
+      }
+    }
+
+    .more-btn {
+      font-size: 16px;
+      padding: 12px 30px;
+      margin: 30px auto 0;
+    }
+  }
+
+  .portfolio-slider {
+    .portfolio-slider-row {
+      margin: 15px 0;
+    }
+
+    .portfolio-slider-track {
+      gap: 15px;
+
+      .portfolio-slider-item {
+        width: 100px;
+        height: 140px;
+      }
+    }
+  }
+
+  .level-tabs {
+    margin: 60px 0;
+
+    h5 {
+      font-size: 22px;
+      margin-bottom: 20px;
+    }
+
+    .tab-wrap {
+      flex-direction: column !important;
+      gap: 30px !important;
+
+      /* Tailwind 클래스 오버라이드 */
+      .tab-buttons {
+        width: 100% !important;
+
+        .tab-button {
+          padding: 10px 16px;
+          font-size: 15px;
+
+          button {
+            font-size: 15px;
+          }
+        }
+      }
+
+      .tab-content {
+        width: 100% !important;
+        height: auto;
+        padding: 25px 20px;
+
+        .tab-description {
+          h6 {
+            font-size: 14px;
+          }
+
+          p {
+            font-size: 20px;
+          }
+        }
+
+        .series-list {
+          li {
+            font-size: 14px;
+            padding: 6px 0;
+          }
+
+          .tab-image {
+            margin-top: 20px;
+            gap: 8px;
+
+            img {
+              width: 90px;
+              height: 120px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  /* Usage 섹션 */
+  .usage-section {
+    .bg-icon,
+    .bg-icon2 {
+      display: none;
+    }
+
+    .title-banner {
+      font-size: 28px;
+      padding-bottom: 15px;
+
+      &::before,
+      &::after {
+        display: none;
+      }
+    }
+
+    /* Tailwind flex 클래스와 충돌 방지 */
+    .flex {
+      display: flex !important;
+      flex-direction: column !important;
+      gap: 30px !important;
+    }
+
+    .usage-wrap {
+      .usage-card {
+        width: 100% !important;
+        max-width: 400px;
+        margin: 0 auto;
+        padding: 30px 25px;
+
+        h6 {
+          font-size: 24px;
+          margin-bottom: 15px;
+        }
+
+        p {
+          font-size: 16px;
+        }
+
+        .icon {
+          width: 150px;
+          height: 150px;
+        }
+      }
+    }
+  }
+
+  .environment2 {
+    width: 100%;
+    margin: 40px auto 0;
+    grid-template-columns: 1fr;
+    gap: 25px;
+    padding: 0 15px;
+
+    .item {
+      .text {
+        margin-bottom: 0;
+      }
+
+      p {
+        margin-bottom: 10px;
+      }
+    }
+
+    .image {
+      width: 100%;
+      max-width: 500px;
+      height: 280px;
+    }
+  }
+
+  .environment {
+    width: 100%;
+    margin: 80px auto 0;
+    padding: 0 15px;
+
+    /* Tailwind flex 클래스와 충돌 방지 */
+    .flex {
+      display: flex !important;
+      flex-direction: column !important;
+      gap: 40px !important;
+    }
+
+    .image-wrap {
+      width: 100%;
+      gap: 15px;
+    }
+
+    .box-wrap {
+      width: 100%;
+      justify-content: center;
+      gap: 15px;
+
+      .box {
+        width: 100% !important;
+        flex: none !important;
+        height: auto;
+        padding: 15px;
+        gap: 15px;
+
+        .icon {
+          width: 50px;
+          height: 50px;
+        }
+
+        h3 {
+          font-size: 16px;
+        }
+
+        p {
+          font-size: 14px;
+        }
+      }
+    }
+  }
+
+  /* Pricing 섹션 */
+  .pricing-section {
+    .pricing-text {
+      font-size: 22px;
+      margin-bottom: 30px;
+    }
+
+    .pricing-wrap {
+      flex-direction: column;
+      gap: 20px;
+
+      .pricing-card {
+        width: 100% !important;
+        max-width: 350px;
+        margin: 0 auto;
+        padding: 30px 20px;
+      }
+    }
+  }
+
+  /* FAQ 섹션 */
+  .faq-accordion {
+    margin-top: 60px;
+
+    .faq-item {
+      .faq-question {
+        padding: 30px 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        span {
+          font-size: 20px;
+        }
+      }
+
+      .faq-answer {
+        p {
+          font-size: 16px;
+          line-height: 1.6;
+        }
+
+        &.opacity-100 {
+          padding: 40px 20px;
+        }
+      }
+    }
+  }
+
+  /* Reviews 섹션 */
+  .reviews-section {
+    .review-box {
+      flex-direction: column !important;
+      gap: 30px !important;
+      margin-top: 40px;
+
+      .review-card {
+        width: 100% !important;
+        max-width: 400px;
+        margin: 0 auto;
+        padding: 60px 30px 40px;
+
+        h6 {
+          font-size: 18px;
+          margin-bottom: 15px;
+        }
+
+        .profile {
+          width: 60px;
+          height: 60px;
+          top: -30px;
+        }
+      }
+    }
+
+    .bg-icon4 {
+      display: none;
+    }
+  }
+
+  /* Banner */
+  .wave-banner {
+    height: 80px;
+    bottom: 20px;
+    padding: 0 15px;
+
+    .inner {
+      width: 100%;
+      max-width: calc(100% - 30px);
+      padding: 8px 15px;
+      border-radius: 50px;
+      min-height: 70px;
+
+      .icon-wrap {
+        flex: none;
+
+        .icon {
+          position: relative !important;
+          left: auto !important;
+          top: auto !important;
+          width: 50px;
+          height: 50px;
+        }
+
+        p {
+          margin-left: 10px;
+          font-size: 16px;
+        }
+      }
+
+      .logo-wrap {
+        flex: 1;
+        min-width: 0;
+      }
+
+      .button-wrap {
+        flex: none;
+        gap: 10px;
+
+        button {
+          width: 140px;
+          padding: 10px 12px;
+
+          a {
+            font-size: 14px;
+          }
+        }
+      }
+    }
+  }
+
+  /* Footer */
+  .footer {
+    padding: 60px 0 120px;
+
+    .inner {
+      width: 100%;
+      padding: 0 20px;
+      gap: 15px;
+
+      /* Tailwind flex 클래스와 충돌 방지 */
+      .flex {
+        display: flex !important;
+        flex-direction: column !important;
+        gap: 10px !important;
+        text-align: center !important;
+      }
+
+      p {
+        font-size: 14px;
+        line-height: 1.5;
+      }
+    }
+  }
+}
+
+/* 모바일 - 480px 이하 */
+@media (max-width: 480px) {
+  /* 공통 스타일 */
+  section {
+    padding: 60px 0;
+  }
+
+  .container {
+    width: 100%;
+    padding: 0 20px;
+  }
+
+  .title {
+    font-size: 24px;
+  }
+
+  .title2 {
+    font-size: 30px;
+  }
+
+  /* 네비게이션 */
+  .navbar {
+    display: none;
+  }
+
+  /* 메인 섹션 */
+  .main-section {
+    padding: 60px 0;
+
+    .container {
+      gap: 20px;
+
+      .main-title {
+        font-size: 24px;
+        padding-top: 15px;
+      }
+
+      p {
+        font-size: 15px;
+        margin-bottom: 25px;
+
+        br {
+          display: none;
+        }
+      }
+
+      .flex {
+        gap: 12px !important;
+        margin-top: 25px !important;
+      }
+
+      .btn {
+        padding: 12px 25px;
+        font-size: 15px;
+        max-width: 250px;
+      }
+
+      .main-image,
+      .main-image2 {
+        height: 200px !important;
+        max-width: 320px !important;
+      }
+    }
+  }
+
+  /* Engage 섹션 */
+  .engage-section {
+    padding: 60px 0 40px;
+  }
+
+  .engage-box {
+    .engage-item {
+      width: 70%;
+      text-align: left;
+      padding-bottom: 50px;
+      padding-left: 50px;
+
+      h6 {
+        font-size: 20px;
+        margin-bottom: 12px;
+      }
+
+      p {
+        font-size: 15px;
+      }
+    }
+  }
+
+  /* About 섹션 */
+  .about-section {
+    .youtube-wrap {
+      height: 220px;
+      margin: 20px auto;
+    }
+
+    .description {
+      font-size: 14px;
+      padding: 6px 25px;
+    }
+  }
+
+  .about-wrap {
+    gap: 60px;
+    margin-top: 20px;
+
+    .item {
+      gap: 25px;
+    }
+
+    .text {
+      h6 {
+        font-size: 24px;
+      }
+      p {
+        font-size: 16px;
+
+        br {
+          display: none;
+        }
+      }
+      ul li {
+        font-size: 15px;
+        margin-bottom: 6px;
+      }
+    }
+
+    .image {
+      height: 200px;
+    }
+  }
+
+  .slider-wrap {
+    gap: 15px;
+    margin-top: 40px;
+
+    .slider-track {
+      gap: 40px;
+
+      .slide {
+        width: 280px;
+        height: 240px;
+      }
+
+      .content {
+        padding: 50px 20px 20px;
+
+        h6 {
+          font-size: 18px;
+        }
+
+        p {
+          font-size: 13px;
+        }
+      }
+    }
+  }
+
+  /* Portfolio 섹션 */
+  .portfolio-section {
+    .text {
+      margin-top: 15px;
+
+      p {
+        font-size: 15px;
+      }
+    }
+
+    .more-btn {
+      font-size: 15px;
+      padding: 10px 25px;
+      margin: 25px auto 0;
+    }
+  }
+
+  .portfolio-slider {
+    .portfolio-slider-row {
+      margin: 12px 0;
+    }
+
+    .portfolio-slider-track {
+      gap: 12px;
+
+      .portfolio-slider-item {
+        width: 90px;
+        height: 125px;
+      }
+    }
+  }
+
+  .level-tabs {
+    margin: 40px 0;
+
+    h5 {
+      font-size: 20px;
+      margin-bottom: 15px;
+    }
+
+    .tab-wrap {
+      gap: 25px !important;
+
+      .tab-buttons {
+        gap: 6px;
+        margin-bottom: 15px;
+
+        .tab-button {
+          padding: 8px 12px;
+          font-size: 13px;
+
+          button {
+            font-size: 13px;
+          }
+        }
+      }
+
+      .tab-content {
+        padding: 20px 15px;
+
+        .tab-description {
+          h6 {
+            font-size: 12px;
+          }
+
+          p {
+            font-size: 18px;
+          }
+        }
+
+        .series-list {
+          li {
+            font-size: 13px;
+            padding: 5px 0;
+          }
+
+          .tab-image {
+            margin-top: 15px;
+            gap: 6px;
+
+            img {
+              width: 75px;
+              height: 100px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  /* Usage 섹션 */
+  .usage-section {
+    .title-banner {
+      font-size: 24px;
+      padding-bottom: 12px;
+    }
+
+    .flex {
+      gap: 25px !important;
+    }
+
+    .usage-wrap {
+      .usage-card {
+        max-width: 320px;
+        padding: 25px 20px;
+
+        h6 {
+          font-size: 20px;
+          margin-bottom: 12px;
+        }
+
+        p {
+          font-size: 15px;
+        }
+
+        .icon {
+          width: 130px;
+          height: 130px;
+        }
+      }
+    }
+  }
+
+  .environment2 {
+    margin: 30px auto 0;
+    gap: 20px;
+
+    .item {
+      gap: 12px;
+
+      h3 {
+        width: 20px;
+        height: 20px;
+        font-size: 11px;
+      }
+
+      p {
+        font-size: 16px;
+      }
+    }
+
+    .image {
+      height: 180px;
+    }
+  }
+
+  .environment {
+    margin: 60px auto 0;
+
+    .flex {
+      gap: 30px !important;
+    }
+
+    .image-wrap {
+      gap: 12px;
+    }
+
+    .box-wrap {
+      gap: 12px;
+
+      .box {
+        padding: 12px;
+        gap: 12px;
+
+        .icon {
+          width: 40px;
+          height: 40px;
+        }
+
+        h3 {
+          font-size: 15px;
+        }
+
+        p {
+          font-size: 13px;
+        }
+      }
+    }
+  }
+
+  /* Pricing 섹션 */
+  .pricing-section {
+    .pricing-text {
+      font-size: 20px;
+      margin-bottom: 25px;
+    }
+
+    .pricing-wrap {
+      gap: 15px;
+
+      .pricing-card {
+        max-width: 300px;
+        padding: 25px 15px;
+
+        h3 {
+          font-size: 16px;
+          margin-bottom: 6px;
+        }
+
+        p {
+          font-size: 26px;
+        }
+      }
+    }
+  }
+
+  /* FAQ 섹션 */
+  .faq-accordion {
+    margin-top: 40px;
+
+    .faq-item {
+      .faq-question {
+        display: flex;
+        justify-content: space-between;
+        padding: 25px 15px;
+
+        span {
+          font-size: 18px;
+        }
+      }
+
+      .faq-answer {
+        p {
+          font-size: 15px;
+          line-height: 1.5;
+        }
+
+        &.opacity-100 {
+          padding: 30px 15px;
+        }
+      }
+    }
+  }
+
+  /* Reviews 섹션 */
+  .reviews-section {
+    .review-box {
+      gap: 25px !important;
+      margin-top: 30px;
+
+      .review-card {
+        max-width: 320px;
+        padding: 50px 20px 30px;
+
+        h6 {
+          font-size: 16px;
+          margin-bottom: 12px;
+        }
+
+        .profile {
+          width: 50px;
+          height: 50px;
+          top: -25px;
+        }
+      }
+    }
+  }
+
+  /* Banner */
+  .wave-banner {
+    width: 100%;
+    margin: 0 auto;
+    height: 64px;
+    padding: 0;
+
+    .inner {
+      padding: 6px 10px;
+      border-radius: 40px;
+      gap: 8px;
+      min-height: 60px;
+      box-shadow: none;
+
+      .icon-wrap {
+        display: none;
+        .icon {
+          width: 40px;
+          height: 40px;
+        }
+
+        p {
+          font-size: 14px;
+          margin-left: 5px;
+        }
+      }
+
+      .logo-wrap {
+        width: 100px;
+      }
+      .button-wrap {
+        gap: 8px;
+
+        button {
+          width: 120px;
+
+          a {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 4px 4px;
+
+            font-size: 12px;
+          }
+        }
+      }
+    }
+  }
+
+  /* Footer */
+  .footer {
+    padding: 50px 0 100px;
+
+    .inner {
+      padding: 0 15px;
+      gap: 12px;
+
+      .flex {
+        gap: 8px !important;
+      }
+
+      p {
+        font-size: 13px;
+        line-height: 1.4;
+      }
+    }
+  }
+}
+
+/* 초소형 모바일 - 360px 이하 */
+@media (max-width: 360px) {
+  .container {
+    padding: 0 15px;
+  }
+
+  .title {
+    font-size: 22px;
+  }
+
+  .title2 {
+    font-size: 26px;
+  }
+
+  /* 메인 섹션 */
+  .main-section {
+    .container {
+      .main-title {
+        font-size: 22px;
+      }
+
+      p {
+        font-size: 14px;
+      }
+
+      .btn {
+        max-width: 220px;
+        font-size: 14px;
+      }
+
+      .main-image,
+      .main-image2 {
+        height: 180px !important;
+        max-width: 280px !important;
+      }
+    }
+  }
+
+  /* Usage 섹션 */
+  .usage-section {
+    .title-banner {
+      font-size: 20px;
+    }
+
+    .usage-wrap {
+      .usage-card {
+        max-width: 280px;
+        padding: 20px 15px;
+
+        h6 {
+          font-size: 18px;
+        }
+
+        .icon {
+          width: 120px;
+          height: 120px;
+        }
+      }
+    }
+  }
+
+  /* Banner */
+  .wave-banner {
+    .inner {
+      .icon-wrap {
+        .icon {
+          width: 35px;
+          height: 35px;
+        }
+
+        p {
+          font-size: 12px;
+        }
+      }
+
+      .button-wrap {
+        button {
+          width: 100px;
+          padding: 6px 8px;
+
+          a {
+            font-size: 11px;
+          }
+        }
+      }
+    }
+  }
+}
+
+/* =========================
+   Tailwind CSS 충돌 해결 및 최적화
+   ========================= */
+
+/* 모든 미디어 쿼리에서 Tailwind 클래스 보완 */
+
+/* 1200px 이하에서 일부 Tailwind 클래스 조정 */
+@media (max-width: 1200px) {
+  /* Tailwind justify-between을 보완하여 더 적은 간격 적용 */
+  .usage-wrap.flex.justify-between {
+    gap: 20px !important;
+    justify-content: space-around !important;
+  }
+}
+
+/* 992px 이하에서 Tailwind flex 레이아웃 변경 */
+@media (max-width: 992px) {
+  /* Usage 섹션 Tailwind flex 방향 변경 */
+  .usage-wrap.flex,
+  .usage-wrap.flex.justify-between {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 30px !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+
+  /* Portfolio 섹션 Tailwind width 클래스 조정 */
+  .tab-wrap .tab-buttons.w-full.md\:w-1\/4 {
+    width: 100% !important;
+    margin-bottom: 20px !important;
+  }
+
+  .tab-wrap .tab-content.w-full.md\:w-3\/4 {
+    width: 100% !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .engage-section .flex,
+  .engage-section .flex.justify-between,
+  .usage-section .flex,
+  .usage-section .flex.justify-between,
+  .usage-section .usage-wrap.flex,
+  .usage-section .usage-wrap.flex.justify-between,
+  .environment .flex,
+  .environment .flex.flex-col,
+  .environment .flex.flex-col.justify-between,
+  .environment .flex.flex-col.justify-between.items-center,
+  .footer .flex,
+  .footer .flex.gap-10 {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 20px !important;
+    justify-content: center !important;
+    align-items: center !important;
+    margin-top: 20px !important;
+  }
+
+  .main-section .flex.gap-6 {
+    gap: 15px !important;
+  }
+
+  .footer .flex.gap-10 {
+    gap: 10px !important;
+  }
+
+  .engage-section .w-2\/3,
+  .engage-section .w-1\/3,
+  .level-tabs .w-full,
+  .level-tabs .md\:w-1\/4,
+  .level-tabs .md\:w-3\/4,
+  .tab-buttons.w-full.md\:w-1\/4,
+  .tab-content.w-full.md\:w-3\/4 {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  .engage-section .flex.justify-between,
+  .usage-section .flex.justify-between,
+  .usage-wrap.flex.justify-between {
+    justify-content: center !important;
+  }
+
+  .title2.text-center {
+    text-align: center !important;
+  }
+}
+
+@media (max-width: 480px) {
+  [class*="flex"],
+  [class*="justify-"],
+  [class*="items-"] {
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+    text-align: center !important;
+  }
+
+  [class*="w-1/"],
+  [class*="w-2/"],
+  [class*="w-3/"],
+  [class*="w-full"],
+  [class*="md:w-"] {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  [class*="gap-"] {
+    gap: 15px !important;
+  }
+
+  [class*="mt-"],
+  [class*="mb-"],
+  [class*="mx-"],
+  [class*="my-"] {
+    margin-top: 15px !important;
+    margin-bottom: 15px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+}
+
+/* =========================
+   특정 컴포넌트별 Tailwind 충돌 해결
+   ========================= */
+
+.faq-item.border-b.border-gray-300 {
+  border-bottom: 1px solid #e0e0e0 !important;
+}
+
+@media (max-width: 768px) {
+  .tab-buttons .tab-button button {
+    width: 100% !important;
+    text-align: center !important;
+  }
+}
+
+.faq-question.hover\:bg-gray-100:hover,
+.faq-question.bg-gray-100 {
+  background-color: #f7f7f7 !important;
+  transition: background-color 0.3s ease !important;
+}
+
+/* =========================
+   추가 안전장치 - Tailwind 우선순위 극복
+   ========================= */
+
+body {
+  --tw-prose-body: inherit;
+  --tw-prose-headings: inherit;
+  --tw-prose-lead: inherit;
+  --tw-prose-links: inherit;
+  --tw-prose-bold: inherit;
+  --tw-prose-counters: inherit;
+  --tw-prose-bullets: inherit;
+  --tw-prose-hr: inherit;
+  --tw-prose-quotes: inherit;
+  --tw-prose-quote-borders: inherit;
+  --tw-prose-captions: inherit;
+  --tw-prose-code: inherit;
+  --tw-prose-pre-code: inherit;
+  --tw-prose-pre-bg: inherit;
+  --tw-prose-th-borders: inherit;
+  --tw-prose-td-borders: inherit;
+}
+
+.container {
+  box-sizing: border-box !important;
+}
+
+section {
+  box-sizing: border-box !important;
+  position: relative !important;
+}
+
+/* Flexbox 안전장치 - Tailwind와 충돌 방지 */
+@supports (display: flex) {
+  [class*="flex"] {
+    box-sizing: border-box !important;
+  }
+
+  [class*="w-"] {
+    box-sizing: border-box !important;
+    min-width: 0 !important;
+  }
+}
+
+@supports (display: grid) {
+  [class*="grid"] {
+    box-sizing: border-box !important;
+  }
+}
+
+img {
+  max-width: 100% !important;
+  height: auto !important;
+  box-sizing: border-box !important;
+}
+
+/* 모바일에서 터치 최적화 */
+@media (max-width: 768px) {
+  button,
+  .btn,
+  [role="button"],
+  .usage-card,
+  .pricing-card,
+  .review-card,
+  .faq-question {
+    touch-action: manipulation !important;
+    -webkit-tap-highlight-color: transparent !important;
+  }
+
+  /* 스크롤 최적화 */
+  .slider-track,
+  .portfolio-slider-track {
+    -webkit-overflow-scrolling: touch !important;
+    scroll-behavior: smooth !important;
+  }
+}
+
+/* 고대비 모드 지원 */
+@media (prefers-contrast: high) {
+  .card,
+  .usage-card,
+  .pricing-card,
+  .review-card {
+    border: 2px solid #000 !important;
+  }
+
+  .btn {
+    border: 2px solid currentColor !important;
+  }
+}
+
+/* 모션 감소 설정 지원 */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+
+  .slider-track {
+    animation: none !important;
+  }
+}
+
+/* =========================
+   고해상도 디스플레이 대응
+   ========================= */
+
+/* 4K 디스플레이 - 1920px 이상 */
+@media (min-width: 1920px) {
+  .container {
+    max-width: 1600px;
+  }
+
+  .navbar .inner {
+    max-width: 1800px;
+  }
+
+  .main-section .container {
+    max-width: 1600px;
+  }
+
+  .environment2 {
+    width: 1300px;
+  }
+
+  .environment {
+    width: 1400px;
+  }
+
+  .wave-banner .inner {
+    width: 1600px;
+  }
+}
+
+@media (min-width: 2560px) {
+  .container {
+    max-width: 2000px;
+  }
+
+  .navbar .inner {
+    max-width: 2200px;
+  }
+
+  .main-section .container {
+    max-width: 2000px;
+  }
+
+  .environment2 {
+    width: 1600px;
+  }
+
+  .environment {
+    width: 1800px;
+  }
+
+  .wave-banner .inner {
+    width: 2000px;
+  }
+}

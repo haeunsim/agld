@@ -5,10 +5,10 @@ import { motion } from "motion/react";
 
 export default function Usage() {
   return (
-    <section className="usage-section">
+    <section id="usage" className="usage-section">
       <div className="container">
         <motion.h2
-          className="title2 text-center mb-[40px]"
+          className="title2 text-center"
           initial={{ opacity: 0, y: 50 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: false }}
@@ -17,7 +17,7 @@ export default function Usage() {
           이렇게 활용해보세요
         </motion.h2>
 
-        <div className="flex justify-between mb-[100px]">
+        <div className="usage-wrap flex justify-between">
           <motion.div
             className="usage-card"
             initial={{ opacity: 0, y: 50 }}
@@ -87,7 +87,15 @@ export default function Usage() {
         </div>
 
         <div className="!pt-[150px]">
-          <h2 className="title-banner">수업 연계 흐름</h2>
+          <motion.h2
+            className="title-banner"
+            initial={{ opacity: 0, y: 50 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: false }}
+            transition={{ duration: 0.8, ease: "easeOut" }}
+          >
+            수업 연계 흐름
+          </motion.h2>
           <div className="environment2">
             <motion.div
               className="item"

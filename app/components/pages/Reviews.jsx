@@ -8,7 +8,7 @@ export default function Reviews() {
     <section className="reviews-section">
       <div className="container">
         <motion.h2
-          className="title2 text-center font-kcc"
+          className="title2 text-center"
           initial={{ opacity: 0, y: 50 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: false }}

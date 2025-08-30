@@ -53,8 +53,53 @@ export default function About() {
     },
   ];
 
+  const reviews = [
+    {
+      title: "수업과 연계가 쉬워요",
+      content:
+        "아이들이 책을 읽고 퀴즈까지 풀 수 있어서 수업 시간에 바로 활용할 수 있습니다. 랭킹이나 보상 기능 덕분에 아이들이 스스로 하려고 하는 게 큰 장점이에요.",
+      teacher: "서울 00초 영어 전담 교사",
+      image: "/images/teacher1.png",
+    },
+    {
+      title: "교과 연계 도서가 준비돼 있어요",
+      content:
+        "단원에 맞는 책이 있어서 따로 도서를 찾을 필요가 없습니다. LMS에서 학생들이 얼마나 읽었는지 바로 확인할 수 있어서 지도하기가 편합니다.",
+      teacher: "군산 00초 5학년 담임 교사",
+      image: "/images/teacher2.png",
+    },
+    {
+      title: "독서가 영어 학습으로 이어져요",
+      content:
+        "책 읽기가 퀴즈나 말하기 활동으로 이어지다 보니 학습 효과가 큽니다. 보상 덕분에 아이들이 꾸준히 읽으면서 자연스럽게 영어 표현에도 익숙해지고 있어요.",
+      teacher: "의정부 00초 영어 전담교사",
+      image: "/images/teacher3.png",
+    },
+    {
+      title: "아이들이 자발적으로 참여해요",
+      content:
+        "보상과 랭킹 덕분에 아이들이 스스로 책을 읽고 활동을 이어갑니다. 옆에서 별도의 지도를 하지 않아도 적극적으로 참여하는 모습이 보입니다.",
+      teacher: "아산 00초 4학년 담임 교사",
+      image: "/images/teacher4.png",
+    },
+    {
+      title: "난이도 있는 책도 있어서 좋아요",
+      content:
+        "쉬운 책만 있는 게 아니라서 학습 욕심이 있는 학생들에게 도움이 됩니다. 학생들이 스스로 도전하면서 영어 표현에도 더 깊게 다가가고 있어요.",
+      teacher: "원주 00초 영어 전담 교사",
+      image: "/images/teacher5.png",
+    },
+    {
+      title: "소통이 잘 되는 서비스예요",
+      content:
+        "업데이트가 자주 이뤄지고, 문의나 개선 요청도 빠르게 반영돼서 만족스럽습니다. 현장에서 바로 활용할 수 있도록 지원해 주는 점이 특히 좋아요.",
+      teacher: "세종 00초 영어 전담 교사",
+      image: "/images/teacher6.png",
+    },
+  ];
+
   return (
-    <section className="about-section">
+    <section id="about" className="about-section">
       <div className="container">
         <motion.p
           className="description"
@@ -75,7 +120,18 @@ export default function About() {
           알공북스가 특별한 이유
         </motion.h2>
 
-        <div className="youtube-wrap"></div>
+        <div className="youtube-wrap">
+          <iframe
+            width="1024"
+            height="576"
+            src="https://www.youtube.com/embed/ZEAR-8pzo6E?si=lZhZeZytRxY-fwDa&amp;controls=0&modestbranding=1&rel=0"
+            title="YouTube video player"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+        </div>
 
         <div className="about-wrap">
           <motion.div
@@ -86,7 +142,7 @@ export default function About() {
             transition={{ duration: 0.8, ease: "easeOut" }}
           >
             <div className="text">
-              <h6 className="font-kcc text-stone-700">몰입형 독서 경험</h6>
+              <h6 className="font-himchan text-stone-700">몰입형 독서 경험</h6>
               <div>
                 <p>
                   학생이 책을 읽을수록 나만의 서재가 자라납니다.
@@ -115,7 +171,9 @@ export default function About() {
               <Image src="/images/about2.png" alt="" width={600} height={400} />
             </div>
             <div className="text text-right">
-              <h6 className="font-kcc text-stone-700">수업과 연결된 책 추천</h6>
+              <h6 className="font-himchan text-stone-700">
+                수업과 연결된 책 추천
+              </h6>
               <div>
                 <p>
                   이제 영어도서관이 수업과 따로 놀지 않습니다.
@@ -136,7 +194,7 @@ export default function About() {
             transition={{ duration: 0.8, ease: "easeOut" }}
           >
             <div className="text">
-              <h6 className="font-kcc text-stone-700">AI 독후 활동</h6>
+              <h6 className="font-himchan text-stone-700">AI 독후 활동</h6>
               <div>
                 <p>
                   책을 다 읽으면, 이야기 속 캐릭터와의 대화가 이어집니다.
@@ -151,26 +209,55 @@ export default function About() {
               <Image src="/images/about3.png" alt="" width={600} height={400} />
             </div>
           </motion.div>
+
+          <motion.div
+            className="item"
+            initial={{ opacity: 0, y: 50 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: false }}
+            transition={{ duration: 0.8, ease: "easeOut" }}
+          >
+            <div className="image">
+              <Image src="/images/about4.png" alt="" width={600} height={400} />
+            </div>
+            <div className="text text-right">
+              <h6 className="font-himchan text-stone-700">
+                입체 독서로 완독하는 읽기 루틴
+              </h6>
+              <div>
+                <p>
+                  이제 책은 눈으로만 읽지 않습니다. 페이지마다 들려오는
+                  <br />
+                  원어민 음원을 따라 읽으면, AI가 실시간으로 발음을 <br />
+                  인식해 자연스럽게 듣기와 말하기 활동이 이어집니다.
+                  <br />
+                  배속 조절과 단어장 기능으로 학습 부담은 줄이고, 듣고,
+                  <br />
+                  말하고, 이해하며, 입체 독서로 완독의 흐름을 이어갑니다.
+                </p>
+              </div>
+            </div>
+          </motion.div>
         </div>
       </div>
 
       <div className="slider-wrap">
         <div className="slider-container">
           <div className="slider-track">
-            {[...slides, ...slides].map((slide, index) => (
-              <div key={index} className="slide">
-                <div className="image">
-                  <h5>{slide.subTitle}</h5>
-                  <Image src={slide.image} alt="" width={370} height={500} />
+            {[...reviews, ...reviews].map((review, reviewIndex) => (
+              <div key={reviewIndex} className="slide">
+                <div className="profile">
+                  <Image
+                    src={review.image}
+                    width={80}
+                    height={80}
+                    alt="teacher"
+                  />
                 </div>
-                <div className="text">
-                  <h6>{slide.title}</h6>
-
-                  <div>
-                    {slide.features.map((feature, featureIndex) => (
-                      <p key={featureIndex}>{feature}</p>
-                    ))}
-                  </div>
+                <div className="content">
+                  <h6>{review.title}</h6>
+                  <p>❝ {review.content} ❞</p>
+                  <p className="font-himchan">{review.teacher}</p>
                 </div>
               </div>
             ))}
