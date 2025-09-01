@@ -165,7 +165,7 @@ export default function About() {
             transition={{ duration: 0.8, ease: "easeOut" }}
           >
             <div className="text">
-              <h6 className="font-himchan text-stone-700">몰입형 독서 경험</h6>
+              <h6 className="text-stone-700">몰입형 독서 경험</h6>
               <div>
                 <p>
                   학생이 책을 읽을수록 나만의 서재가 자라납니다.
@@ -194,9 +194,7 @@ export default function About() {
               <Image src="/images/about2.png" alt="" width={600} height={400} />
             </div>
             <div className="text text-right">
-              <h6 className="font-himchan text-stone-700">
-                수업과 연결된 책 추천
-              </h6>
+              <h6 className="text-stone-700">수업과 연결된 책 추천</h6>
               <div>
                 <p>
                   이제 영어도서관이 수업과 따로 놀지 않습니다. <br />
@@ -219,9 +217,7 @@ export default function About() {
             transition={{ duration: 0.8, ease: "easeOut" }}
           >
             <div className="text">
-              <h6 className="font-himchan text-stone-700">
-                입체 독서로 완독하는 읽기 루틴
-              </h6>
+              <h6 className="text-stone-700">입체 독서로 완독하는 읽기 루틴</h6>
               <div>
                 <p>
                   책에 나오는 단어를 익히고, 원어민 음원을 듣고,
@@ -248,7 +244,7 @@ export default function About() {
               <Image src="/images/about3.png" alt="" width={600} height={400} />
             </div>
             <div className="text text-right">
-              <h6 className="font-himchan text-stone-700">AI 독후 활동</h6>
+              <h6 className="text-stone-700">AI 독후 활동</h6>
               <div>
                 <p>
                   책을 다 읽으면, 이야기 속 캐릭터와의 대화가 이어집니다.

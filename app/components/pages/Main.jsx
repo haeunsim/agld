@@ -58,7 +58,7 @@ export default function Main() {
         </div>
         <div className="main-image2">
           <Image
-            src="/images/pad_01.png"
+            src="/images/pad_03.png"
             alt="main-image2"
             width={1000}
             height={1000}
