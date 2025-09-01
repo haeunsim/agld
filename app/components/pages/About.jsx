@@ -124,14 +124,37 @@ export default function About() {
           <iframe
             width="1024"
             height="576"
-            src="https://www.youtube.com/embed/ZEAR-8pzo6E?si=lZhZeZytRxY-fwDa&amp;controls=0&modestbranding=1&rel=0"
+            src="https://www.youtube.com/embed/ZEAR-8pzo6E?si=lZhZeZytRxY-fwDa&amp;controls=1&modestbranding=1&rel=0"
             title="YouTube video player"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerpolicy="strict-origin-when-cross-origin"
-            allowfullscreen
+            referrerPolicy="strict-origin-when-cross-origin"
+            allowFullScreen
           ></iframe>
         </div>
+
+        <motion.div
+          className="text-center"
+          initial={{ opacity: 0, y: 50 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: false }}
+          transition={{ duration: 0.8, ease: "easeOut" }}
+        >
+          <h4 className="title">
+            <span className="font-himchan">
+              <span className="font-himchan text-yellow-600">
+                6,100명의 교사
+              </span>
+              가 직접 검증한{" "}
+              <span className="font-himchan text-yellow-600">알공 영어</span>,
+            </span>
+          </h4>
+          <h2 className="title2">
+            영어 수업은 이제{" "}
+            <span className="text-yellow-500">AI 영어 도서관</span>
+            으로 확장됩니다.
+          </h2>
+        </motion.div>
 
         <div className="about-wrap">
           <motion.div
@@ -156,7 +179,7 @@ export default function About() {
               </div>
             </div>
             <div className="image">
-              <Image src="/images/about1.png" alt="" width={600} height={400} />
+              <Image src="/images/about5.png" alt="" width={600} height={400} />
             </div>
           </motion.div>
 
@@ -176,11 +199,13 @@ export default function About() {
               </h6>
               <div>
                 <p>
-                  이제 영어도서관이 수업과 따로 놀지 않습니다.
-                  <br /> 교과 진도에 맞춘 책을 추천하고, 선생님은 반 전체 미션을
+                  이제 영어도서관이 수업과 따로 놀지 않습니다. <br />
+                  2022교육과정 8종 검정 영어교과서 단원과 연계된 책을 추천하고,
                   <br />
-                  설정해 간단히 연계할 수 있어요. 표현 중심 교육과정과도 <br />
-                  자연스럽게 맞물려, 수업과 독서가 하나의 흐름이 됩니다.
+                  선생님은 반 전체 미션을 설정해 간단히 연계할 수 있어요. <br />
+                  표현 중심 교육과정과도 자연스럽게 맞물려,
+                  <br />
+                  수업과 독서가 하나의 흐름이 됩니다.
                 </p>
               </div>
             </div>
@@ -194,19 +219,21 @@ export default function About() {
             transition={{ duration: 0.8, ease: "easeOut" }}
           >
             <div className="text">
-              <h6 className="font-himchan text-stone-700">AI 독후 활동</h6>
+              <h6 className="font-himchan text-stone-700">
+                입체 독서로 완독하는 읽기 루틴
+              </h6>
               <div>
                 <p>
-                  책을 다 읽으면, 이야기 속 캐릭터와의 대화가 이어집니다.
+                  책에 나오는 단어를 익히고, 원어민 음원을 듣고,
                   <br />
-                  감상을 나누고 게임을 즐기며, 이해가 깊어지고 흥미가 커집니다.
+                  AI 음성인식으로 직접 소리내 읽으며 자연스럽게
                   <br />
-                  즐겁게 마무리된 독서는 곧 다음 책으로 자연스럽게 연결됩니다.
+                  자기주도적 독서를 이어갈 수 있습니다
                 </p>
               </div>
             </div>
             <div className="image">
-              <Image src="/images/about3.png" alt="" width={600} height={400} />
+              <Image src="/images/about4.png" alt="" width={600} height={400} />
             </div>
           </motion.div>
 
@@ -218,22 +245,17 @@ export default function About() {
             transition={{ duration: 0.8, ease: "easeOut" }}
           >
             <div className="image">
-              <Image src="/images/about4.png" alt="" width={600} height={400} />
+              <Image src="/images/about3.png" alt="" width={600} height={400} />
             </div>
             <div className="text text-right">
-              <h6 className="font-himchan text-stone-700">
-                입체 독서로 완독하는 읽기 루틴
-              </h6>
+              <h6 className="font-himchan text-stone-700">AI 독후 활동</h6>
               <div>
                 <p>
-                  이제 책은 눈으로만 읽지 않습니다. 페이지마다 들려오는
+                  책을 다 읽으면, 이야기 속 캐릭터와의 대화가 이어집니다.
                   <br />
-                  원어민 음원을 따라 읽으면, AI가 실시간으로 발음을 <br />
-                  인식해 자연스럽게 듣기와 말하기 활동이 이어집니다.
+                  감상을 나누고 게임을 즐기며, 이해가 깊어지고 흥미가 커집니다.
                   <br />
-                  배속 조절과 단어장 기능으로 학습 부담은 줄이고, 듣고,
-                  <br />
-                  말하고, 이해하며, 입체 독서로 완독의 흐름을 이어갑니다.
+                  즐겁게 마무리된 독서는 곧 다음 책으로 자연스럽게 연결됩니다.
                 </p>
               </div>
             </div>

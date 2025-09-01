@@ -95,6 +95,11 @@ section {
   color: #292929;
   font-family: "NoonnuBasicGothic" !important;
   font-weight: bold;
+
+  span {
+    font-family: "NoonnuBasicGothic" !important;
+    font-weight: bold;
+  }
 }
 
 .card {
@@ -275,7 +280,7 @@ section {
     aspect-ratio: 16 / 9;
     width: 1024px;
     height: 576px;
-    margin: 40px auto;
+    margin: 40px auto 100px;
     border-radius: 16px;
     overflow: hidden;
 
@@ -327,7 +332,7 @@ section {
   flex-direction: column;
   justify-content: space-between;
   gap: 150px;
-  margin-top: 40px;
+  margin-top: 100px;
   z-index: 100;
 
   .item {

@@ -186,7 +186,7 @@ export default function Portfolio() {
               target="_blank"
               href="https://www.onlinekorea.co.kr/datafiles/manual/eLibrary_brochure.pdf"
             >
-              전체 도서 보기
+              도서 레벨 가이드
             </Link>
           </button>
         </div>
